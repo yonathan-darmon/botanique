@@ -26,37 +26,34 @@ body, html {
 main{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
 }
 .arbuste3-3-1{
-    width: 20%;
+    width: 30%;
 }
 .arbuste3-3-2{
-    width: 60%;
+    width: 70%;
 }
 .iconeaside {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 30px;
+    justify-content:flex-start;
+    width: 5%;
     height: 30px;
     transition: transform 330ms ease-in-out;
 }
 #asidebtn[type="checkbox"]:checked ~ aside {
     width: 30%;
-    opacity: 100;
+    display: contents;
   }
 
 #asidebtn[type="checkbox"]:checked ~ label {
     transform:scale(25%);
 }
 aside{
-    opacity: 0;
+    opacity: 100;
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;
-    transition :width 330ms;
+    width: 0%;
+    transition : width 330ms;
     overflow: hidden;
 }

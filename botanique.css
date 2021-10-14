@@ -1,26 +1,27 @@
+
 body, html {
     height: 100vh;
     width: 100%;
-    margin: 0;
 }
 .bigone {
       width: 100%;
       height: 100%;
       min-height: 100%;
       box-sizing: border-box;
-      background: rgb(36,176,27);
-      background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
       color: white;
 }
 /* header */
 header{
     height: auto;
+    background-color: black;
+    margin-bottom: 0;
 }
 .navbar ul{
     display: flex;
     justify-content: flex-end;
     flex-wrap: nowrap;
     list-style: none;
+    margin-bottom: 0;
 }
 .navbar li{
     padding-right: 15px;
@@ -28,20 +29,39 @@ header{
 /* main */
 main{
     display: flex;
-    margin-right:0;
-    margin-bottom: 30px;
     font-size: 20px;
+    width: auto;
+    height: auto;
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+    margin-top: 0;
 }
-.arbuste3-3-1{
-    width:30%
+h2{
+    text-decoration: underline;
 }
-.arbuste3-3-2{
+.arbustemain1{
+    width:30%;
+    height: 100%;
+}
+.arbustemain2{
     width: 100%;
     margin: 0;
+    height: 100%;
+    display: flex;
 }
-.arbuste3-3-2 img{
-    width: 15%;
-    height: 15%;
+.arbuste11 img {
+    max-width:100%;
+    height:auto;
+}
+.arbuste12{
+    height: 10%;
+    width: 30%;
+    resize: both;
+    overflow: auto;
+}
+.arbuste12 img{
+    max-width: 100%;
+    height: auto;
 }
 .iconeaside {
     display: flex;
@@ -50,7 +70,7 @@ main{
     height: 30px;
     transition: transform 330ms ease-in-out;
     padding-left: 50px;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 #asidebtn[type="checkbox"]:checked ~ aside {
     width: 30%;
@@ -58,7 +78,7 @@ main{
 }
 
 #asidebtn[type="checkbox"]:checked ~ label {
-    transform:scale(100%);
+    transform:scale(150%);
 }
 aside{
     opacity: 100;
@@ -87,13 +107,51 @@ aside{
 .nav2{
     list-style: none;
 }
-.arbuste3-3-2 ul{
+.arbustemain2 ul{
     list-style: none;
+}
+
+.arbuste11{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.genet label{
+    position:absolute;
+    right:0;
+    border:2px ridge transparent;
+    display:block;
+    text-align:center;
+    width: 1.2em;
+    height: 1.2em;
+}
+.genet{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonGe{
+    display:none;
+}
+#boutonGe:checked ~ .genet{
+    height:100%;
+    width:100%;
 }
 /* footer */
 footer{
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    margin: 0;
 }
 .foot11{
     list-style: none;

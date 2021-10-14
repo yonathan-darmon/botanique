@@ -1,6 +1,6 @@
 body, html {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0;
 }
 .bigone {
@@ -8,11 +8,13 @@ body, html {
       height: 100%;
       min-height: 100%;
       box-sizing: border-box;
-      overflow-x: hidden;
-      overflow-y: hidden;
       background: rgb(36,176,27);
       background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
       color: white;
+}
+/* header */
+header{
+    height: auto;
 }
 .navbar ul{
     display: flex;
@@ -26,13 +28,20 @@ body, html {
 /* main */
 main{
     display: flex;
-    width: 100%;
+    margin-right:0;
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 .arbuste3-3-1{
-    width: 30%;
+    width:30%
 }
 .arbuste3-3-2{
-    width: 70%;
+    width: 100%;
+    margin: 0;
+}
+.arbuste3-3-2 img{
+    width: 15%;
+    height: 15%;
 }
 .iconeaside {
     display: flex;
@@ -46,7 +55,7 @@ main{
 #asidebtn[type="checkbox"]:checked ~ aside {
     width: 30%;
     display: contents;
-  }
+}
 
 #asidebtn[type="checkbox"]:checked ~ label {
     transform:scale(100%);
@@ -76,6 +85,9 @@ aside{
     color: white;
 }
 .nav2{
+    list-style: none;
+}
+.arbuste3-3-2 ul{
     list-style: none;
 }
 /* footer */

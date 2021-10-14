@@ -118,13 +118,14 @@ aside{
     display:flex;
 }
 .genet label{
+    transition:all 2s;
     position:absolute;
     right:0;
-    border:2px ridge transparent;
+    border:2px ridge crimson;
     display:block;
     text-align:center;
-    width: 1.2em;
-    height: 1.2em;
+    width:1.2rem;
+    height:1.2rem;
 }
 .genet{
     position:relative;
@@ -145,6 +146,10 @@ aside{
 #boutonGe:checked ~ .genet{
     height:100%;
     width:100%;
+}
+#boutonGe:checked ~ .genet>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
 }
 /* footer */
 footer{

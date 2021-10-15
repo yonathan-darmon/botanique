@@ -29,7 +29,8 @@ header{
 /* main */
 main{
     display: flex;
-    font-size: 20px;
+    justify-content:space-evenly;
+    font-size: 15px;
     width: 100%;
     height: 100%;
     background: rgb(36,176,27);
@@ -491,14 +492,14 @@ aside{
 .epi2{
     margin: 0;
 }
-/* fiche argousier */
-.arbuste2{
+/* fiche chou de brxl */
+.legume2{
     border:5px none grey;
     height: 25%;
     width: 80%;
     display:flex;
 }
-.argousier label{
+.chou label{
     transition:all 2s;
     position:absolute;
     right:0;
@@ -508,7 +509,7 @@ aside{
     width:1.2rem;
     height:1.2rem;
 }
-.argousier{
+.chou{
     position:relative;
     border:5px solid rgb(36,176,27);
     border-radius: 20px;
@@ -521,25 +522,25 @@ aside{
     display: flex;
     flex-wrap: wrap;
 }
-#boutonAr{
+#boutonCh{
     display:none;
 }
-#boutonAr:checked ~ .argousier{
+#boutonCh:checked ~ .chou{
     height:100vh;
     width:100%;
 }
-#boutonAr:checked ~ .argousier>label {
+#boutonCh:checked ~ .chou>label {
     transform:rotate(1800deg);
     border-radius:15px;
 }
-/* fiche aronia */
-.arbuste3{
+/* fiche brocolis */
+.legume3{
     border:5px none grey;
     height: 25%;
     width: 80%;
     display:flex;
 }
-.aronia label{
+.brocoli label{
     transition:all 2s;
     position:absolute;
     right:0;
@@ -549,7 +550,7 @@ aside{
     width:1.2rem;
     height:1.2rem;
 }
-.aronia{
+.brocoli{
     position:relative;
     border:5px solid rgb(36,176,27);
     border-radius: 20px;
@@ -562,25 +563,25 @@ aside{
     display: flex;
     flex-wrap: wrap;
 }
-#boutonAro{
+#boutonBr{
     display:none;
 }
-#boutonAro:checked ~ .aronia{
+#boutonBr:checked ~ .brocoli{
     height:100vh;
     width:100%;
 }
-#boutonAro:checked ~ .aronia>label {
+#boutonBr:checked ~ .brocoli>label {
     transform:rotate(1800deg);
     border-radius:15px;
 }
-/* fiche caprier */
-.arbuste4{
+/* fiche endive */
+.legume4{
     border:5px none grey;
     height: 25%;
     width: 80%;
     display:flex;
 }
-.caprier label{
+.endive label{
     transition:all 2s;
     position:absolute;
     right:0;
@@ -590,7 +591,7 @@ aside{
     width:1.2rem;
     height:1.2rem;
 }
-.caprier{
+.endive{
     position:relative;
     border:5px solid rgb(36,176,27);
     border-radius: 20px;
@@ -603,25 +604,25 @@ aside{
     display: flex;
     flex-wrap: wrap;
 }
-#boutonCa{
+#boutonEn{
     display:none;
 }
-#boutonCa:checked ~ .caprier{
+#boutonEn:checked ~ .endive{
     height:100vh;
     width:100%;
 }
-#boutonCa:checked ~ .caprier>label {
+#boutonEn:checked ~ .endive>label {
     transform:rotate(1800deg);
     border-radius:15px;
 }
-/* fiche goumi */
-.arbuste5{
+/* fiche asperge */
+.legume5{
     border:5px none grey;
     height: 25%;
     width: 80%;
     display:flex;
 }
-.goumi label{
+.asperge label{
     transition:all 2s;
     position:absolute;
     right:0;
@@ -631,7 +632,7 @@ aside{
     width:1.2rem;
     height:1.2rem;
 }
-.goumi{
+.asperge{
     position:relative;
     border:5px solid rgb(36,176,27);
     border-radius: 20px;
@@ -644,25 +645,25 @@ aside{
     display: flex;
     flex-wrap: wrap;
 }
-#boutonGo{
+#boutonAs{
     display:none;
 }
-#boutonGo:checked ~ .goumi{
+#boutonAs:checked ~ .asperge{
     height:100vh;
     width:100%;
 }
-#boutonGo:checked ~ .goumi>label {
+#boutonAs:checked ~ .asperge>label {
     transform:rotate(1800deg);
     border-radius:15px;
 }
-/* fiche aubépine */
-.arbuste6{
+/* fiche avocat */
+.legume6{
     border:5px none grey;
     height: 25%;
     width: 80%;
     display:flex;
 }
-.aube label{
+.avocat label{
     transition:all 2s;
     position:absolute;
     right:0;
@@ -672,7 +673,7 @@ aside{
     width:1.2rem;
     height:1.2rem;
 }
-.aube{
+.avocat{
     position:relative;
     border:5px solid rgb(36,176,27);
     border-radius: 20px;
@@ -685,14 +686,178 @@ aside{
     display: flex;
     flex-wrap: wrap;
 }
-#boutonAu{
+#boutonAv{
     display:none;
 }
-#boutonAu:checked ~ .aube{
+#boutonAv:checked ~ .avocat{
     height:100vh;
     width:100%;
 }
-#boutonAu:checked ~ .aube>label {
+#boutonAv:checked ~ .avocat>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche salade */
+.legume7{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.salade label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.salade{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonSa{
+    display:none;
+}
+#boutonSa:checked ~ .salade{
+    height:100vh;
+    width:100%;
+}
+#boutonSa:checked ~ .salade>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche navet */
+.legume8{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.navet label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.navet{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonNa{
+    display:none;
+}
+#boutonNa:checked ~ .navet{
+    height:100vh;
+    width:100%;
+}
+#boutonNa:checked ~ .navet>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche avocat */
+.legume9{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.poireau label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.poireau{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonPo{
+    display:none;
+}
+#boutonPo:checked ~ .poireau{
+    height:100vh;
+    width:100%;
+}
+#boutonPo:checked ~ .poireau>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche betterave */
+.legume10{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.betterave label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.betterave{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonBe{
+    display:none;
+}
+#boutonBe:checked ~ .betterave{
+    height:100vh;
+    width:100%;
+}
+#boutonBe:checked ~ .betterave>label {
     transform:rotate(1800deg);
     border-radius:15px;
 }

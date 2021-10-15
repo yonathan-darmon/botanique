@@ -86,9 +86,16 @@ aside{
 /* accueil */
 .accueil{
     background-image: url(accueil.jpg);
-    background-repeat: no-repeat;
     background-size: 100%;
-    display: flex;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.bienv{
+    background-color: transparent;
+    font-size: 45px;
+    margin: 0 auto;
+    height: 50vh;
 }
 /* c est la page Arbuste.html */
 .arbustemain1{

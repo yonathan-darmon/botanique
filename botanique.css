@@ -83,6 +83,13 @@ aside{
 .nav2{
     list-style: none;
 }
+/* accueil */
+.accueil{
+    background-image: url(accueil.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+}
 /* c est la page Arbuste.html */
 .arbustemain1{
     width:30%;

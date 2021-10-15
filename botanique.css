@@ -434,69 +434,25 @@ aside{
     max-width: 100%;
     height: auto;
 }
-.iconeaside {
-    display: flex;
-    justify-content:flex-start;
-    width: 5%;
-    height: 30px;
-    transition: transform 330ms ease-in-out;
-    padding-left: 50px;
-    padding-top: 25px;
-}
-#asidebtn[type="checkbox"]:checked ~ aside {
-    width: 30%;
-    display: contents;
-}
-
-#asidebtn[type="checkbox"]:checked ~ label {
-    transform:scale(150%);
-}
-aside{
-    opacity: 100;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 0%;
-    transition : width 330ms;
-    overflow: hidden;
-}
-.formulaire{
-    display: flex;
-    flex-direction: column;
-}
-.bouto{
-    display: flex;
-    justify-content: space-between;
-}
-.tachebtn{
-    width: 100%;
-}
-.nav2 a{
-    text-decoration: none;
-    color: white;
-}
-.nav2{
-    list-style: none;
-}
-.arbustemain2 ul{
+.legumemain2 ul{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
 }
-.arbustemain2 li{
+.legumemain2 li{
     padding: 0;
     margin: 0;
 }
-/* fiche genet */
-.arbuste1{
+/* fiche epinard */
+.legume1{
     border:5px none grey;
     width: 80%;
     height: 25%;
     display:flex;
 }
-.genet label{
+.epinard label{
     transition:all 2s;
     position:absolute;
     right:0;
@@ -506,7 +462,7 @@ aside{
     width:1.2rem;
     height:1.2rem;
 }
-.genet{
+.epinard{
     position:relative;
     border:5px solid rgb(36,176,27);
     border-radius: 20px;
@@ -520,18 +476,18 @@ aside{
     flex-wrap: wrap;
     margin-right: 0;
 }
-#boutonGe{
+#boutonEp{
     display:none;
 }
-#boutonGe:checked ~ .genet{
+#boutonEp:checked ~ .epinard{
     height:100vh;
     width:100%;
 }
-#boutonGe:checked ~ .genet>label {
+#boutonEp:checked ~ .epinard>label {
     transform:rotate(1800deg);
     border-radius:15px;
 }
-.gen2{
+.epi2{
     margin: 0;
 }
 /* fiche argousier */

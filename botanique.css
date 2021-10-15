@@ -39,43 +39,6 @@ main{
 h2{
     text-decoration: underline;
 }
-.arbustemain1{
-    width:30%;
-    height: 100%;
-}
-/* c est la page Arbuste.html */
-.arbustemain2{
-    width: 100%;
-    margin: 0;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-/* image */
-.arbuste11 img {
-    max-width:100%;
-    height:auto;
-}
-.arbuste12 img{
-    max-width: 100%;
-    height: auto;
-}
-.arbuste13 img{
-    max-width: 100%;
-    height: auto;
-}
-.arbuste14 img{
-    max-width: 100%;
-    height: auto;
-}
-.arbuste15 img{
-    max-width: 100%;
-    height: auto;
-}
-.arbuste16 img{
-    max-width: 100%;
-    height: auto;
-}
 .iconeaside {
     display: flex;
     justify-content:flex-start;
@@ -119,6 +82,43 @@ aside{
 }
 .nav2{
     list-style: none;
+}
+/* c est la page Arbuste.html */
+.arbustemain1{
+    width:30%;
+    height: 100%;
+}
+.arbustemain2{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* image */
+.arbuste11 img {
+    max-width:100%;
+    height:auto;
+}
+.arbuste12 img{
+    max-width: 100%;
+    height: auto;
+}
+.arbuste13 img{
+    max-width: 100%;
+    height: auto;
+}
+.arbuste14 img{
+    max-width: 100%;
+    height: auto;
+}
+.arbuste15 img{
+    max-width: 100%;
+    height: auto;
+}
+.arbuste16 img{
+    max-width: 100%;
+    height: auto;
 }
 .arbustemain2 ul{
     list-style: none;
@@ -382,6 +382,10 @@ aside{
     border-radius:15px;
 }
 /* c est la page Legume.html */
+.legumemain1{
+    width:30%;
+    height: 100%;
+}
 .legumemaine2{
     width: 100%;
     margin: 0;

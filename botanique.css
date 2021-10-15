@@ -1,24 +1,27 @@
+
 body, html {
     height: 100vh;
-    width: 100vw;
-    margin: 0;
+    width: 100%;
 }
 .bigone {
       width: 100%;
       height: 100%;
       min-height: 100%;
       box-sizing: border-box;
-      overflow-x: hidden;
-      overflow-y: hidden;
-      background: rgb(36,176,27);
-      background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
       color: white;
+}
+/* header */
+header{
+    height: auto;
+    background-color: black;
+    margin-bottom: 0;
 }
 .navbar ul{
     display: flex;
     justify-content: flex-end;
     flex-wrap: nowrap;
     list-style: none;
+    margin-bottom: 0;
 }
 .navbar li{
     padding-right: 15px;
@@ -26,13 +29,51 @@ body, html {
 /* main */
 main{
     display: flex;
+    font-size: 20px;
     width: 100%;
+    height: 100%;
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+    margin: 0;
 }
-.arbuste3-3-1{
-    width: 30%;
+h2{
+    text-decoration: underline;
 }
-.arbuste3-3-2{
-    width: 70%;
+.arbustemain1{
+    width:30%;
+    height: 100%;
+}
+.arbustemain2{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* image */
+.arbuste11 img {
+    max-width:100%;
+    height:auto;
+}
+.arbuste12 img{
+    max-width: 100%;
+    height: auto;
+}
+.arbuste13 img{
+    max-width: 100%;
+    height: auto;
+}
+.arbuste14 img{
+    max-width: 100%;
+    height: auto;
+}
+.arbuste15 img{
+    max-width: 100%;
+    height: auto;
+}
+.arbuste16 img{
+    max-width: 100%;
+    height: auto;
 }
 .iconeaside {
     display: flex;
@@ -41,15 +82,15 @@ main{
     height: 30px;
     transition: transform 330ms ease-in-out;
     padding-left: 50px;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 #asidebtn[type="checkbox"]:checked ~ aside {
     width: 30%;
     display: contents;
-  }
+}
 
 #asidebtn[type="checkbox"]:checked ~ label {
-    transform:scale(100%);
+    transform:scale(150%);
 }
 aside{
     opacity: 100;
@@ -78,10 +119,190 @@ aside{
 .nav2{
     list-style: none;
 }
+.arbustemain2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.arbustemain2 li{
+    padding: 0;
+    margin: 0;
+}
+/* fiche genet */
+.arbuste11{
+    border:5px none grey;
+    height: 25%;
+    display:flex;
+}
+.genet label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.genet{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+}
+#boutonGe{
+    display:none;
+}
+#boutonGe:checked ~ .genet{
+    height:100vh;
+    width:100%;
+}
+#boutonGe:checked ~ .genet>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+.gen2{
+    margin: 0;
+}
+/* fiche argousier */
+.arbuste2{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.argousier label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.argousier{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonAr{
+    display:none;
+}
+#boutonAr:checked ~ .argousier{
+    height:100vh;
+    width:100%;
+}
+#boutonAr:checked ~ .argousier>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche aronia */
+.arbuste3{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.aronia label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.aronia{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonAro{
+    display:none;
+}
+#boutonAro:checked ~ .aronia{
+    height:100vh;
+    width:100%;
+}
+#boutonAro:checked ~ .aronia>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche caprier */
+.arbuste4{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.caprier label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.caprier{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonCa{
+    display:none;
+}
+#boutonCa:checked ~ .caprier{
+    height:100vh;
+    width:100%;
+}
+#boutonCa:checked ~ .caprier>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+
 /* footer */
 footer{
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    margin: 0;
 }
 .foot11{
     list-style: none;

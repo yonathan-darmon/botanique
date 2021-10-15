@@ -860,6 +860,304 @@ aside{
     transform:rotate(1800deg);
     border-radius:15px;
 }
+/* c est la page plante.html */
+.plantemain1{
+    width:30%;
+    height: 100%;
+}
+.plantemain2{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* image */
+.plante11 img {
+    max-width:100%;
+    height:auto;
+}
+.plante12 img{
+    max-width: 100%;
+    height: auto;
+}
+.plante13 img{
+    max-width: 100%;
+    height: auto;
+}
+.plante14 img{
+    max-width: 100%;
+    height: auto;
+}
+.plante15 img{
+    max-width: 100%;
+    height: auto;
+}
+.plante16 img{
+    max-width: 100%;
+    height: auto;
+}
+.plantemain2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.plantemain2 li{
+    padding: 0;
+    margin: 0;
+}
+/* fiche desmodium */
+.plante1{
+    border:5px none grey;
+    width: 80%;
+    height: 25%;
+    display:flex;
+}
+.desmodium label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.desmodium{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+}
+#boutonDe{
+    display:none;
+}
+#boutonDe:checked ~ .desmodium{
+    height:100vh;
+    width:100%;
+}
+#boutonDe:checked ~ .desmodium>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+.des2{
+    margin: 0;
+}
+/* fiche L'aloé vera */
+.plante2{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.aloe label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.aloe{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonAl{
+    display:none;
+}
+#boutonAl:checked ~ .aloe{
+    height:100vh;
+    width:100%;
+}
+#boutonAl:checked ~ .aloe>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche ginseng */
+.plante3{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.ginseng label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.ginseng{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonGi{
+    display:none;
+}
+#boutonGi:checked ~ .ginseng{
+    height:100vh;
+    width:100%;
+}
+#boutonGi:checked ~ .ginseng>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche arbre à the */
+.plante4{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.thee label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.thee{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonTh{
+    display:none;
+}
+#boutonTh:checked ~ .thee{
+    height:100vh;
+    width:100%;
+}
+#boutonTh:checked ~ .thee>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche malisse */
+.plante5{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.melisse label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.melisse{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonMe{
+    display:none;
+}
+#boutonMe:checked ~ .melisse{
+    height:100vh;
+    width:100%;
+}
+#boutonMe:checked ~ .melisse>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche Buchu */
+.plante6{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.buchu label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.buchu{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonBu{
+    display:none;
+}
+#boutonBu:checked ~ .buchu{
+    height:100vh;
+    width:100%;
+}
+#boutonBu:checked ~ .buchu>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
 /* footer */
 footer{
     display: flex;

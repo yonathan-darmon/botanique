@@ -162,6 +162,9 @@ aside{
     flex-wrap: wrap;
     margin-right: 0;
 }
+.genet::-webkit-scrollbar{
+    display: none;
+}
 #boutonGe{
     display:none;
 }
@@ -177,6 +180,9 @@ aside{
     margin: 0;
 }
 /* fiche argousier */
+.argousier::-webkit-scrollbar{
+    display: none;
+}
 .arbuste2{
     border:5px none grey;
     height: 25%;
@@ -218,6 +224,9 @@ aside{
     border-radius:15px;
 }
 /* fiche aronia */
+.aronia::-webkit-scrollbar{
+    display: none;
+}
 .arbuste3{
     border:5px none grey;
     height: 25%;
@@ -259,6 +268,9 @@ aside{
     border-radius:15px;
 }
 /* fiche caprier */
+.caprier::-webkit-scrollbar{
+    display: none;
+}
 .arbuste4{
     border:5px none grey;
     height: 25%;
@@ -300,6 +312,9 @@ aside{
     border-radius:15px;
 }
 /* fiche goumi */
+.goumi::-webkit-scrollbar{
+    display: none;
+}
 .arbuste5{
     border:5px none grey;
     height: 25%;
@@ -341,6 +356,9 @@ aside{
     border-radius:15px;
 }
 /* fiche aubépine */
+.aube::-webkit-scrollbar{
+    display: none;
+}
 .arbuste6{
     border:5px none grey;
     height: 25%;
@@ -447,6 +465,9 @@ aside{
     margin: 0;
 }
 /* fiche epinard */
+.epinard::-webkit-scrollbar{
+    display: none;
+}
 .legume1{
     border:5px none grey;
     width: 80%;
@@ -492,6 +513,9 @@ aside{
     margin: 0;
 }
 /* fiche chou de brxl */
+.chou::-webkit-scrollbar{
+    display: none;
+}
 .legume2{
     border:5px none grey;
     height: 25%;
@@ -533,6 +557,9 @@ aside{
     border-radius:15px;
 }
 /* fiche brocolis */
+.brocoli::-webkit-scrollbar{
+    display: none;
+}
 .legume3{
     border:5px none grey;
     height: 25%;
@@ -574,6 +601,9 @@ aside{
     border-radius:15px;
 }
 /* fiche endive */
+.endive::-webkit-scrollbar{
+    display: none;
+}
 .legume4{
     border:5px none grey;
     height: 25%;
@@ -615,6 +645,9 @@ aside{
     border-radius:15px;
 }
 /* fiche asperge */
+.asperge::-webkit-scrollbar{
+    display: none;
+}
 .legume5{
     border:5px none grey;
     height: 25%;
@@ -656,6 +689,9 @@ aside{
     border-radius:15px;
 }
 /* fiche avocat */
+.avocat::-webkit-scrollbar{
+    display: none;
+}
 .legume6{
     border:5px none grey;
     height: 25%;
@@ -697,6 +733,9 @@ aside{
     border-radius:15px;
 }
 /* fiche salade */
+.salade::-webkit-scrollbar{
+    display: none;
+}
 .legume7{
     border:5px none grey;
     height: 25%;
@@ -738,6 +777,9 @@ aside{
     border-radius:15px;
 }
 /* fiche navet */
+.navet::-webkit-scrollbar{
+    display: none;
+}
 .legume8{
     border:5px none grey;
     height: 25%;
@@ -778,7 +820,10 @@ aside{
     transform:rotate(1800deg);
     border-radius:15px;
 }
-/* fiche avocat */
+/* fiche poireau */
+.poireau::-webkit-scrollbar{
+    display: none;
+}
 .legume9{
     border:5px none grey;
     height: 25%;
@@ -820,6 +865,9 @@ aside{
     border-radius:15px;
 }
 /* fiche betterave */
+.betterave::-webkit-scrollbar{
+    display: none;
+}
 .legume10{
     border:5px none grey;
     height: 25%;
@@ -939,6 +987,9 @@ aside{
     flex-wrap: wrap;
     margin-right: 0;
 }
+.desmodium::-webkit-scrollbar{
+    display: none;
+}
 #boutonDe{
     display:none;
 }
@@ -954,6 +1005,9 @@ aside{
     margin: 0;
 }
 /* fiche L'aloé vera */
+.aloe::-webkit-scrollbar{
+    display: none;
+}
 .plante2{
     border:5px none grey;
     height: 25%;
@@ -995,6 +1049,9 @@ aside{
     border-radius:15px;
 }
 /* fiche ginseng */
+.ginseng::-webkit-scrollbar{
+    display: none;
+}
 .plante3{
     border:5px none grey;
     height: 25%;
@@ -1036,6 +1093,9 @@ aside{
     border-radius:15px;
 }
 /* fiche arbre à the */
+.thee::-webkit-scrollbar{
+    display: none;
+}
 .plante4{
     border:5px none grey;
     height: 25%;
@@ -1077,6 +1137,9 @@ aside{
     border-radius:15px;
 }
 /* fiche malisse */
+.melisse::-webkit-scrollbar{
+    display: none;
+}
 .plante5{
     border:5px none grey;
     height: 25%;
@@ -1118,6 +1181,9 @@ aside{
     border-radius:15px;
 }
 /* fiche Buchu */
+.buchu::-webkit-scrollbar{
+    display: none;
+}
 .plante6{
     border:5px none grey;
     height: 25%;
@@ -1157,6 +1223,418 @@ aside{
 #boutonBu:checked ~ .buchu>label {
     transform:rotate(1800deg);
     border-radius:15px;
+}
+/* c est la page fleur.html */
+.fleurmain1{
+    width:30%;
+    height: 100%;
+}
+.fleurmain2{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* image */
+.fleur11 img {
+    max-width:100%;
+    height:auto;
+}
+.fleur12 img{
+    max-width: 100%;
+    height: auto;
+}
+.fleur13 img{
+    max-width: 100%;
+    height: auto;
+}
+.fleur14 img{
+    max-width: 100%;
+    height: auto;
+}
+.fleur15 img{
+    max-width: 100%;
+    height: auto;
+}
+.fleur16 img{
+    max-width: 100%;
+    height: auto;
+}
+.fleur17 img{
+    max-width: 100%;
+    height: auto;
+}
+.fleur18 img{
+    max-width: 100%;
+    height: auto;
+}
+.fleurmain2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.fleurmain2 li{
+    padding: 0;
+    margin: 0;
+}
+/* fiche cammomille */
+.camomille::-webkit-scrollbar{
+    display: none;
+}
+.fleur1{
+    border:5px none grey;
+    width: 80%;
+    height: 25%;
+    display:flex;
+}
+.camomille label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.camomille{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+}
+#boutonCa{
+    display:none;
+}
+#boutonCa:checked ~ .camomille{
+    height:100vh;
+    width:100%;
+}
+#boutonCa:checked ~ .camomille>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+.cam2{
+    margin: 0;
+}
+/* fiche passiflore */
+.passiflore::-webkit-scrollbar{
+    display: none;
+}
+.fleur2{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.passiflore label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.passiflore{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonPa{
+    display:none;
+}
+#boutonPa:checked ~ .passiflore{
+    height:100vh;
+    width:100%;
+}
+#boutonPa:checked ~ .passiflore>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche calentdula */
+.calendula::-webkit-scrollbar{
+    display: none;
+}
+.fleur3{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.calendula label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.calendula{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonCal{
+    display:none;
+}
+#boutonCal:checked ~ .calendula{
+    height:100vh;
+    width:100%;
+}
+#boutonCal:checked ~ .calendula>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche jasmin */
+.jasmin::-webkit-scrollbar{
+    display: none;
+}
+.fleur4{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.jasmin label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.jasmin{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonJa{
+    display:none;
+}
+#boutonJa:checked ~ .jasmin{
+    height:100vh;
+    width:100%;
+}
+#boutonJa:checked ~ .jasmin>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche chevrefeuille */
+.fleur5{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.chevrefeuille label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.chevrefeuille{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonChe{
+    display:none;
+}
+#boutonChe:checked ~ .chevrefeuille{
+    height:100vh;
+    width:100%;
+}
+#boutonChe:checked ~ .chevrefeuille>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+.chevrefeuille::-webkit-scrollbar{
+    display: none;
+}
+/* fiche lavande */
+.fleur6{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.lavande label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.lavande{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonLa{
+    display:none;
+}
+#boutonLa:checked ~ .lavande{
+    height:100vh;
+    width:100%;
+}
+#boutonLa:checked ~ .lavande>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+.lavande::-webkit-scrollbar{
+    display: none;
+}
+/* fiche pavot */
+.fleur7{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.pavot label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.pavot{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonPa{
+    display:none;
+}
+#boutonPa:checked ~ .pavot{
+    height:100vh;
+    width:100%;
+}
+#boutonPa:checked ~ .pavot>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+.pavot::-webkit-scrollbar{
+    display: none;
+}
+/* fiche echinacee */
+.fleur8{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.echinacee label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.echinacee{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonEc{
+    display:none;
+}
+#boutonEc:checked ~ .echinacee{
+    height:100vh;
+    width:100%;
+}
+#boutonEc:checked ~ .echinacee>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+.echinacee::-webkit-scrollbar{
+    display: none;
 }
 /* footer */
 footer{

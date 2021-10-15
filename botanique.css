@@ -123,6 +123,7 @@ aside{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100%;
 }
 .arbustemain2 li{
@@ -130,8 +131,9 @@ aside{
     margin: 0;
 }
 /* fiche genet */
-.arbuste11{
+.arbuste1{
     border:5px none grey;
+    width: 80%;
     height: 25%;
     display:flex;
 }
@@ -296,7 +298,88 @@ aside{
     transform:rotate(1800deg);
     border-radius:15px;
 }
-
+/* fiche goumi */
+.arbuste5{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.goumi label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.goumi{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonGo{
+    display:none;
+}
+#boutonGo:checked ~ .goumi{
+    height:100vh;
+    width:100%;
+}
+#boutonGo:checked ~ .goumi>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
+/* fiche aubépine */
+.arbuste6{
+    border:5px none grey;
+    height: 25%;
+    width: 80%;
+    display:flex;
+}
+.aube label{
+    transition:all 2s;
+    position:absolute;
+    right:0;
+    border:2px ridge crimson;
+    display:block;
+    text-align:center;
+    width:1.2rem;
+    height:1.2rem;
+}
+.aube{
+    position:relative;
+    border:5px solid rgb(36,176,27);
+    border-radius: 20px;
+    background:black;
+    transition:all 1s;
+    margin:0;
+    height:200px;
+    width:200px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+#boutonAu{
+    display:none;
+}
+#boutonAu:checked ~ .aube{
+    height:100vh;
+    width:100%;
+}
+#boutonAu:checked ~ .aube>label {
+    transform:rotate(1800deg);
+    border-radius:15px;
+}
 /* footer */
 footer{
     display: flex;

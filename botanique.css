@@ -42,7 +42,7 @@ main{
     font-size: 25px;
     font-weight: 600;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0;
     background-image: url(accueil.jpg);
     background-size: cover;
@@ -369,7 +369,7 @@ aside{
     display: contents;
 }
 /* accueil */
-.accueil{
+main .accueil{
     background-image: url(accueil.jpg);
     background-size: 100%;
     display: inline-block;
@@ -383,10 +383,10 @@ aside{
     transform: translate(-50%, -50%);
     font-size: 50px;
     font-weight: 600;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-name: slide;
-    animation-direction: alternate;
     color: #a2c21b;
+    font-family: 'Poppins', sans-serif;
    
 }
 .accueil button{
@@ -398,6 +398,7 @@ aside{
     color: #a2c21b;
     border: none;
     background-color: transparent;
+    font-family: 'IM Fell DW Pica', serif;
 }
 .accueil button::before{
     content: "";
@@ -416,36 +417,11 @@ aside{
 }
 @keyframes slide{
     from{
-        margin-left: 100%;
-        width: 300%;
-        border: none;
-    }
-    75% {
-        font-size: 300%;
-        margin-left: 15%;
-        width: 150%;
+        margin-left: 100vw;
         border: none;
     }
     to {
         margin-left: 0%;
-        width: 100%;
-    }
-
-}
-@keyframes slode{
-    from{
-        margin-right: 100%;
-        width: 300%;
-        border: none;
-    }
-    75% {
-        font-size: 300%;
-        margin-right: 15%;
-        width: 150%;
-        border: none;
-    }
-    to {
-        margin-right: 0%;
         width: 100%;
     }
 

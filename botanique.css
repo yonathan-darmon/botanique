@@ -189,6 +189,30 @@ aside{
 .sous8 a{
     color: white;
 }
+.sous9{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-left: 5px;
+}
+.sous9 a{
+    color: white;
+}
+.sous10{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-left: 5px;
+}
+.sous10 a{
+    color: white;
+}
 .nav12{
     display: flex;
     color: black;
@@ -285,6 +309,30 @@ aside{
     background: rgb(36,176,27);
     background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
 }
+.nav20{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav20 a{
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+}
+.nav21{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav21 a{
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+}
 .nav2 .nav12:hover .sous1{
     display: contents;
 }
@@ -307,6 +355,12 @@ aside{
     display: contents;
 }
 .nav2 .nav19:hover .sous8{
+    display: contents;
+}
+.nav2 .nav20:hover .sous9{
+    display: contents;
+}
+.nav2 .nav21:hover .sous10{
     display: contents;
 }
 /* accueil */

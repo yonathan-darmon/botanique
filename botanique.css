@@ -1,5 +1,5 @@
 
-body, html {
+body{
     height: 100vh;
     width: 100%;
 }
@@ -13,8 +13,10 @@ body, html {
 /* header */
 header{
     height: auto;
-    background-color: black;
     margin-bottom: 0;
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+    border-radius: 10px;
 }
 .navbar ul{
     display: flex;
@@ -22,6 +24,11 @@ header{
     flex-wrap: nowrap;
     list-style: none;
     margin-bottom: 0;
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
 }
 .navbar li{
     padding-right: 15px;
@@ -32,12 +39,15 @@ main{
     font-size: 15px;
     width: 100%;
     height: 100%;
-    background: rgb(36,176,27);
-    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
     margin: 0;
+    background-image: url(accueil.jpg);
+    background-size: cover;
 }
 h2{
     text-decoration: underline;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
 }
 .iconeaside {
     display: flex;
@@ -76,12 +86,228 @@ aside{
 .tachebtn{
     width: 100%;
 }
+/* Nav bar de gauche */
 .nav2 a{
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
 }
 .nav2{
     list-style: none;
+    font-size: 25px;
+    color: black;
+}
+.sous1{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.sous1 a{
+    color: white;
+}
+.sous2{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.sous2 a{
+    color: white;
+}
+.sous3{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.sous3 a{
+    color: white;
+}
+.sous4{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.sous4 a{
+    color: white;
+}
+.sous5{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.sous5 a{
+    color: white;
+}
+.sous6{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-left: 5px;
+}
+.sous6 a{
+    color: white;
+}
+.sous7{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-left: 5px;
+}
+.sous7 a{
+    color: white;
+}
+.sous8{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-left: 5px;
+}
+.sous8 a{
+    color: white;
+}
+.nav12{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav12 a{
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+}
+.nav13{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav13 a{
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+}
+.nav14{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav14 a{
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+}
+.nav15{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav15 a{
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+}
+.nav16{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav16 a{
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+}
+.nav17{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav17 a{
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+}
+.nav18{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav18 a{
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+}
+.nav19{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.nav19 a{
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+}
+.nav2 .nav12:hover .sous1{
+    display: contents;
+}
+.nav2 .nav13:hover .sous2{
+    display: contents;
+}
+.nav2 .nav14:hover .sous3{
+    display: contents;
+}
+.nav2 .nav15:hover .sous4{
+    display: contents;
+}
+.nav2 .nav16:hover .sous5{
+    display: contents;
+}
+.nav2 .nav17:hover .sous6{
+    display: contents;
+}
+.nav2 .nav18:hover .sous7{
+    display: contents;
+}
+.nav2 .nav19:hover .sous8{
+    display: contents;
 }
 /* accueil */
 .accueil{
@@ -90,7 +316,7 @@ aside{
     display: inline-block;
     text-align: center;
 }
-h1{
+.accueil h1{
 
     top: 50%;
     left: 50%;
@@ -104,7 +330,7 @@ h1{
     color: #a2c21b;
    
 }
-button{
+.accueil button{
     top: 60%;
     left: 50%;
     position: absolute;
@@ -114,7 +340,7 @@ button{
     border: none;
     background-color: transparent;
 }
-button::before{
+.accueil button::before{
     content: "";
     position: absolute;
     width: 100%;
@@ -125,7 +351,7 @@ button::before{
     transform: scale(0.1);
     transition: 1s;
 }
-button:hover::before{
+.accueil button:hover::before{
     transform: scale(1.1);
 
 }
@@ -168,6 +394,10 @@ button:hover::before{
 button a{
     text-decoration: none;
     color: #a2c21b;
+}
+/* c est la page présentation */
+h1{
+    color: white;
 }
 /* c est la page Arbuste.html */
 .arbustemain1{
@@ -1728,6 +1958,9 @@ footer{
     justify-content: space-around;
     width: 100%;
     margin: 0;
+    background: rgb(36,176,27);
+    background: linear-gradient(85deg, rgba(36,176,27,1) 18%, rgba(162,194,27,1) 100%);
+    border-radius: 10px;
 }
 .foot11{
     list-style: none;

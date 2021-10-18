@@ -421,7 +421,7 @@ main .accueil{
         border: none;
     }
     to {
-        margin-left: 0%;
+        margin-left: 50vw;
         width: 100%;
     }
 
